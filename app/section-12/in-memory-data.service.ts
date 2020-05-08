@@ -6,6 +6,6 @@ export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const states = ['California', 'Illinois', 'Jalisco', 'Quebec', 'Florida'];
     const messages = ['California', 'Illinois', 'Jalisco', 'Quebec', 'Florida'];
-    return { customers: createTestCustomers(), states, messages };
+    return { customers: createTestCustomers(), states: states, messages: messages };
   }
 }
